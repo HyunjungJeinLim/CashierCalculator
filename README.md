@@ -4,6 +4,7 @@
 https://hyunjungjeinlim.github.io/CashierCalculator/
 
 🖼️ Previeew Image
+
 ![Preview Image](CalculatorImage.png)
 
 📋 Description
