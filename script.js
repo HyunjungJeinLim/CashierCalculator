@@ -112,14 +112,20 @@ function updateTotal() {
     document.getElementById("taxes").textContent = taxes.toFixed(2);
     document.getElementById("amountDue").textContent = amountDue.toFixed(2);
 
- // Set current date and time in 'Receipt' section
+    // Set current date and time in 'Receipt' section
     document.getElementById("receiptDate").textContent = curDate();
     document.getElementById("receiptTime").textContent = curTime();
 }
 
 // [Pay] 
 function pay() {
-    alert("Thank you for your purchase!");
+    document.getElementById("payModal").classList.remove("hidden");
+}
+
+// [Modal close]
+function closePayModal() {
+    document.getElementById("payModal").classList.add("hidden");
+    newTransaction();
 }
 
 function curTime() {
