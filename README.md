@@ -7,11 +7,14 @@ https://hyunjungjeinlim.github.io/CashierCalculator/
 ![Preview Image](CalculatorImage.png)
 
 📋 Description
-- A lightweight POS-style cashier simulator using HTML, CSS, and JavaScript – add products, set prices, and generate receipts.
+- A sleek, responsive cashier simulator built with HTML, CSS, JS. Add products, assign prices, select quantities, and generate a professional-style receipt.
+  Designed for mobile and desktop with enhanced UX features.
 
 ✨ Features
-- Add Products - Register new product names to the system
-- Set Prices - Assign unit prices to listed products
-- Choose Quantity - Use keypad or manual input to select quantity
-- View Receipt - See itemized breakdown including total, tax, and due
-- Live Date/Time - Automatically displays the current date and time
+- Add Products – Register new items dynamically  
+- Set Prices – Assign price-per-unit for each product  
+- Quantity Selection – Choose units via number pad or manual input  
+- Live Receipt – View real-time breakdown with subtotal, tax, and total due
+- Payment Modal – Displays custom "Thank You" popup on payment  
+- PAID Badge – Visually marks the receipt as paid after transaction  
+- Auto Date/Time – Live date and time stamp on every receipt
