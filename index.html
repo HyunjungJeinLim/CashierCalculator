@@ -23,7 +23,7 @@
             <div class="addPrice">
                 <select id="productList"></select>
                 <label id="prPlaceHolder" for="productPrice">price</label>
-                <input type="text" id="productPrice"><!--type* text? or number?-->
+                <input type="text" id="productPrice">
                 <button class="addBtn" onclick="addPrice()">Add Price</button><br/><br/>
             </div>
         </div>
@@ -33,7 +33,6 @@
             <h2>Checkout</h2>
             <button class="btnNewTx" onclick="newTransaction()">New Transaction</button><br/><br/>
             <label for="selectProduct">Select a product then type the number of units</label><br/>
-            
             <div class="addCart">
                 <select id="selectProduct"></select>
                 <label for="unitAmount">Unit:</label>
@@ -52,7 +51,6 @@
                 <button onclick="addUnit(8)">8</button>
                 <button onclick="addUnit(9)">9</button><br/><br/>
             </div>
-            
             <button class="btnPay" onclick="pay()">Pay</button>
         </div>
     </div>
@@ -60,6 +58,9 @@
         <div id="receipt">
             <h2>Receipt</h2>
             <div class="receiptTable">
+                <!-- PAID badge -->
+                <div id="paidBadge" class="paid hidden">✅ PAID</div>
+
                 <p>Date: <span id="receiptDate"></span></p>
                 <p>Time: <span id="receiptTime"></span></p>
                 <table>
@@ -74,7 +75,6 @@
                     <tbody id="tbody">
                     </tbody>
                 </table>
-                
                 <!-- Display product details and total amount here -->
                 <p>Total Price: $<span id="totalPrice"></span></p>
                 <p>Taxes: $<span id="taxes"></span></p>

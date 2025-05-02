@@ -182,4 +182,14 @@ body {
   .hidden {
     display: none;
   }
-  
+
+  .paid {
+    background-color: #4ade80;
+    color: white;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 0 auto 10px;
+    font-size: 14px;
+  }

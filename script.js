@@ -74,6 +74,7 @@ function newTransaction() {
     document.getElementById("amountDue").textContent = "";
     document.getElementById("receiptDate").textContent = curDate();
     document.getElementById("receiptTime").textContent = curTime();
+    document.getElementById("paidBadge").classList.add("hidden");
 }
 
 // [Add to Cart] 
@@ -120,12 +121,12 @@ function updateTotal() {
 // [Pay] 
 function pay() {
     document.getElementById("payModal").classList.remove("hidden");
+    document.getElementById("paidBadge").classList.remove("hidden"); 
 }
 
 // [Modal close]
 function closePayModal() {
     document.getElementById("payModal").classList.add("hidden");
-    newTransaction();
 }
 
 function curTime() {
