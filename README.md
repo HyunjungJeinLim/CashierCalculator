@@ -3,7 +3,7 @@
 🎮LIVE DEMO:
 https://hyunjungjeinlim.github.io/CashierCalculator/
 
-🖼️ Previeew Image
+🖼️ Preview Image
 
 ![Preview Image](CalculatorImage.png)
 
